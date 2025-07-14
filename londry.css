@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    padding: 15px;
+}
+#navbar a:hover{
+    color: rgb(88, 15, 117);
+}
+
+
+#navbar nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+#navbar nav ul li a{
+    text-decoration: none;
+}
+
+#navbar div button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(12, 187,187);
+    background: transparent;
+}
+
+/* main section :start from here */
+
+#firstpage{
+     width: 100%;
+     height: 100vh;
+    background-image: url(londry.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#firstpage .div1{
+    width: 50%;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    line-height: 40px;
+    /* height: 100%; */
+    /* border: 1px solid red; */
+}
+#firstpage .color{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center;
+    
+    background-color: rgba(8, 11, 185, 0.58);
+}
+
+#firstpage .div2{
+    margin-left: 50px;
+    color: brown;
+}
+
+#firstpage .btn{
+    display: flex;
+    margin-left: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    gap: 40px;
+    
+}
+
+#firstpage .div2{
+    width: 50%;
+    margin-left: 50px;
+    /* height: 100%; */
+    /* border: 1px solid red; */
+}
+
+#firstpage .btn2{
+    background-color: rgb(250, 77, 13);
+    line-height: 30px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#firstpage .p{
+    margin-top: 20px;
+}
+

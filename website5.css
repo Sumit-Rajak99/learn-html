@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(laptop52.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h2{
+    padding: 10px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#navbar nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    padding-top: 20px;
+    color: white;
+}
+#navbar nav ul{
+    font-weight: 20px;
+    color: white;
+    
+}
+#navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#part{
+    text-align: center;
+    margin-top:300px;
+    color: white;
+    font-weight: 60px;
+    
+}
+
+ .btn{
+    background-color:white;
+    color:black;
+    
+    
+}

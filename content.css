@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(laptop2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#navbar nav ul{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    
+}
+#navbar nav ul li a:hover{
+ color: rgb(216, 121, 13);
+}
+
+#navbar ul li a{
+    list-style: none;
+    color: white;
+}
+#navbar ul li {
+    list-style: none;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    
+
+}
+
+.h2{
+    color: white;
+    padding: 10px;
+  margin-right: 1000px;
+}
+
+#firstpage{
+    margin-top: 180px;
+    color: white;
+    margin-left: 20px;
+}
+.h1{
+    font-size: 50px;
+}
+.content{
+    color: rgb(235, 94, 13);
+}
+#firstpage .btn{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(214, 70, 13);
+    color: white;
+    align-items: center;
+}

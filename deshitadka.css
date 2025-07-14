@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.part1{
+    background-image: url(deshi1.jpg);
+    width: 1400px;
+    height: 700px;
+}
+.deshi{
+    color: white;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+    
+}
+.deshi{
+    font-family: "Bebas Neue", serif;
+
+      
+}
+.deshi2{
+    padding-left: 40px;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content:center;
+    gap: 40px;
+    list-style: none;
+    padding: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar ul li a:hover{
+    background-color: rgb(190, 26, 26);
+    padding: 10px;
+    border-radius: 20px;
+}
+.ORDER{
+    background-color: rgb(190, 26, 26);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* part2 start from here  */
+
+.part2{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+.btn{
+    padding:15px;
+    background-color: white;
+    color: rgb(61, 59, 59);
+    border-radius: 10px;
+    border: none;
+    
+}
+.btn:hover{
+    padding: 15px;
+   background-color: rgb(170, 22, 22);
+   color: white;
+   border: none;
+   border-radius: 15px;
+}
+.icon{
+    background-color: rgba(255, 255, 255, 0.356);
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 650px;
+    margin-top: 20px;
+}
+
+/* part3 start from  here  */
+.part3{
+    display: flex;
+    justify-content: space-between;
+}
+.view{
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 90px;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(58, 57, 57);
+}
+.btn2{
+   padding: 15px;
+   background-color: rgb(170, 22, 22);
+   color: white;
+   border: none;
+   border-radius: 20px;
+}
+.btn2:hover{
+    background-color: rgba(189, 129, 18, 0.884);
+    color: white;
+}
+/* part4 start from here  */
+.part4{
+    display: flex;
+    justify-content:space-between;
+}
+.view2{
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 90px;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(58, 57, 57);
+}
+.btn3{
+   padding: 15px;
+   background-color: rgb(170, 22, 22);
+   color: white;
+   border: none;
+   border-radius: 20px;
+}
+.btn3:hover{
+    background-color: rgba(150, 11, 231, 0.904);
+    color: white;
+}
+/* part5 start from here  */
+.part5{
+    
+    background-image: url(khana1.avif);
+    width: 1400px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+.more{
+    padding: 15px;
+    background-color: rgba(236, 226, 226, 0.26);
+    color: white;
+    border:2px solid wheat;
+    border-radius: 20px;
+ }
+ .more:hover{
+     background-color: rgba(231, 11, 11, 0.904);
+     color: white;
+ }
+ .color{
+    background-color: rgba(148, 19, 19, 0.507);
+    padding-bottom: 20px;
+}
+ /* part6 start from here  */
+ .part6{
+    display: flex;
+    justify-content: space-between;
+ }
+ .cake{
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 90px;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(58, 57, 57);
+}
+.cake1{
+    background-color: rgb(129, 29, 29);
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.cake1:hover{
+    background-color: yellow;
+    color: white;
+}
+/* part7 start from here  */
+.part7{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* part8 start from here 
+ */
+
+ .part8{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(121, 116, 116);
+    padding: 10px;
+    padding-top: 20px;
+ }
+ .number{
+    background-color: rgb(97, 94, 94);
+    padding: 10px;
+    color: white;
+ }
+ .lastbtn{
+    list-style: none;
+ }
+ .lastbtn a{
+    text-decoration: none;
+    color: rgb(104, 102, 102);
+ }
+ 
+ /* last part start from here / */
+ .lastpart{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+ }

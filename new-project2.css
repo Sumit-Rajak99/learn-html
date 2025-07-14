@@ -1,0 +1,60 @@
+/* *{ */
+    /* margin: 0px; */
+    /* padding: 0px; */
+/* } */
+
+
+    
+
+/* #navbar nav ul li a{ */
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    padding: 10px;
+    list-style: none;
+    color: white;
+
+/* } */
+/* .Edu{ */
+    /* color: rgb(13, 148, 80); */
+/* } */
+
+.btn{
+    text-align:left;
+}
+
+#navbar nav ul li a{
+    text-decoration: none;
+}
+
+.sun{
+    color: white;
+}
+
+#sec{
+    margin-top: 220px;
+    margin-left: 120px;
+    color: white;
+    font-size: 30px;
+    
+    
+}
+.p{
+    font-size: 20px;
+}
+
+/* .btn2{ */
+    /* border: none; */
+    /* padding: 10px; */
+  
+/* } */
+
+/* .batan{ */
+    /* color: blue; */
+/* } */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}

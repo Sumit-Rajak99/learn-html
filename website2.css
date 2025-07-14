@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   background-image: url(car1.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px;
+}
+
+.nav :hover {
+    color: blue;
+
+}
+
+#navbar nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+#navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar nav ul li a:hover{
+    color: blue;
+}
+
+.headd{
+    align-items: center;
+    
+}
+.btn{
+    font-size: 20px;
+    color:white;
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+
+}
+.para{
+
+    width: 100%
+    
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+}

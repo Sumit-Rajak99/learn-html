@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+    background-color: wheat;
+    padding: 20px;
+}
+.text input{
+     width:400px;
+     height: 40px;         
+    padding: 10px;        
+    font-size: 18px;  
+    border: none;    
+    border-radius: 5px
+    
+}

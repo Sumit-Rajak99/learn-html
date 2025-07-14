@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(creative5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.xBE{
+    font-size: 30px;
+}
+#navbar{
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+  
+}
+.btn{
+    font-size: 30px;
+    color: rgb(20, 18, 18);
+    padding: 10px;
+    
+}
+.btn:hover{
+    background-color: rgba(175, 13, 13, 0.692);
+    color: white;
+    border: none;
+}
+
+#navbar nav ul{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    color: white;
+   gap: 70px;
+     list-style: none;
+}
+#navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#navbar nav ul li a:hover{
+    color: aqua;
+
+}
+#firstpage{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 30px;
+}

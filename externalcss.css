@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(145, 255, 0);
+  
+    .sid{
+   text-align: center;
+    }
+  
+.sumit{
+    font-style: bold;
+}
+.mail{
+    font-style: bold;
+}
+.contact{
+    font-style: bold;
+}
+.objetive{
+    font-style: bold;
+}
+.loren{
+    font-style: normal;
+}
+.personal{
+    font-style: bold;
+}
+.DOB{
+    font-style: bold;
+}
+.status{
+    font-style: bold;
+}

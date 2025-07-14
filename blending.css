@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(blelding.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(27, 27, 121);
+}
+
+#navbar nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: brown;
+    list-style: none;
+    gap: 60px;
+}
+#navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#navbar nav ul li a:hover{
+  color: blue;
+} 
+.icon{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+
+.icon a:hover{
+    color:orangered;
+}
+
+#mainpage{
+    text-align: center;
+    color: blue;
+    margin-top: 180px;
+    font-size: 40px;
+}
+#mainpage:hover{
+    color: blueviolet;
+}

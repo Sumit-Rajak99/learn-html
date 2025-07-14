@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    padding: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 40px;
+    gap: 10px;
+}
+.go{
+    padding: 20px;
+    align-items: center;
+    height: 20px;
+    background-color:rgb(56, 54, 54); 
+    color: white;
+
+}
+.date{
+    padding: 10px;
+    
+    border: none;
+    text-decoration: none;
+    background-color:rgb(56, 54, 54); 
+    color: white;
+
+}
+.heading2{
+    padding: 20px;
+    text-align: center;
+}
+.para{
+   text-align: center;
+}
+.main{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 40px;
+    padding: 30px;
+
+}
+.img1{
+    border: 2px solid black;
+    width: 500px;
+}
+.sid1{
+    padding: 20px;
+}
+.rupey{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.thailand{
+    text-align: center;
+}
+
+.img2{
+    border: 2px solid black;
+}
+.sid{
+    padding: 20px;
+}
+.rupey1{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.canada{
+    text-align: center;
+}
+.img3{
+    border: 2px solid black;
+}
+.rupey2{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.kerela{
+    text-align: center;
+}
+.show button{
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}

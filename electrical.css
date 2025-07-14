@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+    
+    
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+    gap: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.89);
+}
+
+nav ul .home a{
+    color: aliceblue;
+
+}
+
+.home{
+    padding: 10px;
+    color: white;
+    background-color:rgb(18, 18, 167);
+    border-radius: 20px;
+}
+.icon {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 50px;
+}
+.icon a:hover{
+  background-color: ;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(18, 18, 167)
+  
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-image: url(restaurant.avif);
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    box-shadow: 3px 6px 12px 20px green;
+    padding-top: 80px;
+    color: white;
+    
+    text-align: center;
+}

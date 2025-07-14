@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 180px;
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    .faculty-glyphic-regular {
+        font-family: "Faculty Glyphic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+    
+}
+.btn:hover{
+    background-color: rgba(10, 230, 10, 0.932);
+    color: white;
+}
+.div2{
+    margin-top: 100px;
+    padding-left: 30px;
+    .sour-gummy-<uniquifier> {
+        font-family: "Sour Gummy", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+}
+.btn2 a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    .sour-gummy-<uniquifier> {
+        font-family: "Sour Gummy", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+
+      
+}
+btn2:hover{ 
+     background-color: rgb(108, 9, 201); 
+    color: black;
+ } 

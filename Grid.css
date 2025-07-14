@@ -1,0 +1,25 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: yellow;
+    height: 100vh;
+    display: grid;
+    /* grid-template-columns: repeat(4,auto); */
+    grid-template-rows: 200px 300px;
+}
+.ch{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.ch1{
+    grid-row-start: 1;
+    grid-column-end: 5;
+} */

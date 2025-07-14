@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.icon{
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+    
+
+}

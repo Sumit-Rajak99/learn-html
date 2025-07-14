@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3,auto);
+}
+.ch{
+    background-color: aqua;
+    border: 3px solid ;
+    
+}
+
+.c1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.c2{
+    grid-row-start: 2;
+    grid-row-end:4 ;
+}
+.c5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.c6{
+    grid-column-end:4 ;
+    grid-column-start: 1;
+}

@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body{
+    background-image: url(car1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+#navbar nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+    
+    
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellowgreen;
+}
+
+#navbar nav ul{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    
+}
+#navbar nav ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#navbar nav ul li  a{
+    text-decoration: none;
+    color: brown;
+}
+
+#navbar nav ul li a:hover{
+    color: blue;
+}
+.para{
+    text-align: center;
+    padding: 220px;
+    font-size: 30px;
+}
+.car{
+    font-size: 30px;
+}
+
+.btn{
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+}
+
+video{
+    background-size: cover;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

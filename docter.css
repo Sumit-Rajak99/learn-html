@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* part1 start from here  */
+.part1{
+    display: flex;
+    justify-content:space-around;
+   gap: 90px;
+    background-color:wheat;
+    color: rgb(99, 96, 96);
+    padding: 20px;
+}
+
+/* part2 start from here  */
+.part2 nav ul{
+display: flex;
+justify-content:center;
+background-color: yellow;
+padding: 30px;
+gap: 50px;
+list-style: none;
+padding-right: 50px;
+}
+.part2 nav ul li a{
+    text-decoration: none;
+    color: rgb(75, 73, 73);
+    
+}
+/* part3 start from here  */
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.Good{
+    background-color: blue;
+    width:650%;
+    font-size: 30px;
+    color: white;
+    padding-top: 240px;
+    padding-left: 60px;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+/* part4 start from here  */
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about1{
+    padding: 30px;
+    color: rgb(82, 79, 79);
+    font-size: 20px;
+}
+.btn{
+    background-color: white;
+    border: 2px solid rgb(72, 72, 124);
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(82, 79, 79);
+
+}
+.btn:hover{
+    background-color:blue;
+    color:white;
+}
+.btn1{
+    
+    background-color:blue;
+    border: 2px solid rgb(72, 72, 124);
+    border-radius: 20px;
+    padding: 10px;
+    color:white;
+}
+.btn1:hover{
+    background-color: white;
+    color: rgb(82, 79, 79); 
+}
+
+.care{
+    text-align: center;
+    color: rgb(27, 27, 112);
+}

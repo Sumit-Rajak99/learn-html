@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    background-color:rgb(12, 192, 93) ;
+
+   
+}
+.follow i{
+   color: white;
+  margin-left: 20px;
+   
+}
+.h3{
+    font-size: 20px;
+}
+.btn{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color:aqua;
+    background-color:white;
+    margin-right: 90px;
+    border: 2px;
+}
+.btn:hover{
+    background-color: rgb(32, 32, 99);
+
+}
+
+
+
+.nav{
+    display: flex;
+    gap: 80px;
+    margin-left: 200px;
+    margin-top: -23px;
+    position: fixed;
+    list-style: none;
+    padding: 10px;
+    
+    
+}
+.nav:hover{
+    color: rgb(59, 126, 59);
+}
+
+.nav li a{
+    text-decoration: none;
+    color: rgb(32, 30, 30);
+}
+
+.nav2{
+    background-color: white;
+    padding: 20px;
+}
+.nav2:hover{
+    color: rgb(28, 146, 28);
+}
+.main{
+    text-align: center;
+    margin-top: 180px;
+    font-size: 20px;
+    color: white;
+    
+
+}
+.btn2{
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    background-color:rgb(12, 192, 93) ;
+    color: white;
+}
+
+.btn3{
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn3:hover{
+    background-color: rgb(126, 33, 33);
+    color:white;
+}
+
+.btn4{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+    background-color:rgb(12, 192, 93) ;
+    color: white;
+}
+.btn4:hover{
+    background-color: white;
+    color: rgb(39, 136, 39);
+}

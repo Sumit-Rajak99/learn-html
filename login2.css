@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(cteative4\ -\ Copy.jpg);
+    
+
+    
+}
+.form{
+    text-align: center;
+    margin-top: 130px;
+    border-color:black;
+    border: solid;
+    border-radius: 50px;
+    color:black;
+   height: auto;
+   background-size: cover;
+   size: 10px;
+}
+.btn{
+    padding: 15;
+    background-color: white;
+    color: black;
+}

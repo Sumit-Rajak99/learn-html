@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: brown;
+    
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+#navbar nav ul{
+    display: flex;
+    gap: 220px;
+    list-style: none;
+}
+
+#navbar nav ul li a{
+    text-decoration: none;
+}
+
+#navbar img{
+    border-radius:50px;
+}
+

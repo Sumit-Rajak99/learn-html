@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(business\ mexant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.color{
+    border-color: rgba(0, 0, 0, 0.315);
+}
+.top{
+    color: orangered;
+    font-size: 20px;
+    padding: 20px;
+}
+#navbar nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
+    list-style: none;
+}
+#navbar nav ul li a{
+    text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+#navbar nav ul li a:hover{
+color: rgb(128, 42, 11);
+}
+#main{
+    margin-top: 150px;
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+#main .btn button{
+    font-size:30px;
+    padding: 10px;
+    border-radius: 10px;
+}

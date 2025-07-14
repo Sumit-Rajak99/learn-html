@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* part1 start from here  */
+.part1{
+    display: flex;
+    justify-content:space-around;
+   gap: 90px;
+    background-color:wheat;
+    color: rgb(99, 96, 96);
+    padding: 20px;
+}
+
+/* part2 start from here  */
+.part2 nav ul{
+display: flex;
+justify-content:center;
+background-color: yellow;
+padding: 30px;
+gap: 50px;
+list-style: none;
+padding-right: 50px;
+}
+.part2 nav ul li a{
+    text-decoration: none;
+    color: rgb(75, 73, 73);
+    
+}
+.part2 nav ul li a:hover{
+    color: rgb(17, 17, 236);
+}
+.page{
+    background-color: rgb(39, 39, 163);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+.page:hover{
+    background-color: white;
+    color: rgb(82, 79, 79); 
+    border: 2px solid black;
+}
+/* part3 start from here  */
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.Good{
+    background-color: blue;
+    width:650%;
+    font-size: 30px;
+    color: white;
+    padding-top: 240px;
+    padding-left: 60px;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+/* part4 start from here  */
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about1{
+    padding: 30px;
+    color: rgb(82, 79, 79);
+    font-size: 20px;
+}
+.btn{
+    background-color: white;
+    border: 2px solid rgb(72, 72, 124);
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(82, 79, 79);
+
+}
+.btn:hover{
+    background-color:blue;
+    color:white;
+}
+.btn1{
+    
+    background-color:blue;
+    border: 2px solid rgb(72, 72, 124);
+    border-radius: 20px;
+    padding: 10px;
+    color:white;
+}
+.btn1:hover{
+    background-color: white;
+    color: rgb(82, 79, 79); 
+}
+.no a{
+    text-decoration: none;
+}
+
+.care{
+    text-align: center;
+    color: rgb(27, 27, 112);
+}
+.ser{
+    background-color: white;
+    border: 2px solid rgb(72, 72, 124);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    color: rgb(82, 79, 79);
+}
+.ser:hover{
+    background-color:blue;
+    color:white;
+}
+/* part5 start from here  */
+.solution{
+    display: flex;
+    justify-content:space-around;
+    gap: 100px;
+    padding: 15px;
+    
+    color:rgb(0, 0, 0);
+   
+}
+
+.Read{
+    background-color:blue;
+    border: 2px solid rgb(72, 72, 124);
+    border-radius: 20px;
+    padding: 10px;
+    color:white;
+}
+.Read:hover{
+    background-color: white;
+    color: rgb(82, 79, 79); 
+}
+.Feature{
+    display: flex;
+    justify-content: space-between;
+}
+.choose{
+    background-color: blue;
+    width: 700px;
+    font-size: 20px;
+    color: white;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.sid{
+    background-color: white;
+    border: 2px solid rgb(72, 72, 124);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 15px;
+    color: rgb(82, 79, 79);
+}
+.sid:hover{
+    background-color:rgb(201, 73, 13);
+    border: 2px solid rgb(72, 72, 124);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 15px;
+    color:white;
+}
+.ourdoc{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 30px;
+}
+.name{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.instra{
+    text-align: center;
+    gap: 20px;
+}
+
+.point{
+    display: flex;
+    justify-content:space-around;
+}
+.visit{
+    background-color: azure;
+    padding: 50px;
+    color: rgb(27, 27, 112);
+}
+.text{
+    background-color: azure;
+    padding: 50px;
+    line-height: 50px;
+    gap: 30px;
+    color: rgb(27, 27, 112);
+}
+.ment{
+    text-align:center;
+    background-color: rgb(27, 27, 112);
+    color: white;
+    margin-left: 150px;
+    padding: 20px;
+    border: none;
+    border-radius:10px;
+}
+.ment:hover{
+    background-color: white;
+    color: rgb(82, 79, 79); 
+    border-radius:10px;
+    border: 2px solid black;
+}
+.img{
+    text-align: center;
+    color: rgb(27, 27, 112);
+    margin-top: 50px;
+}
+.mimo{
+    background-color: rgb(27, 27, 112);
+    color: white;
+    margin-left: 100px;
+    padding: 20px;
+    border: none;
+    border-radius:10px;
+}
+.sumit img{
+    border-radius: 50%;
+}
+.patient{
+    background-color: rgb(27, 27, 112);
+    color: white;
+    margin: 30px;
+    padding: 80px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.mail a{
+    text-decoration: none;
+    color: white;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    height: 40vh;
+    font-size: 20px;
+
+}
+
+.copy{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}

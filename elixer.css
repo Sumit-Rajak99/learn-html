@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(elixer.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(51, 51, 110);
+    padding: 20px;
+    color: white;
+}
+.lixer{
+    color:rgb(65, 22, 185); 
+    font-size: 20px;
+}
+#navbar nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.459);
+}
+#navbar nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+#navbar nav ul li a:hover{
+  color: rgb(65, 22, 185);
+  text-decoration: underline;
+}
+#navbar .btn{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid rgb(65, 22, 185);
+    color:rgb(65, 22, 185); 
+}
+#navbar .btn:hover{
+background-color: rgb(65, 22, 185);
+color: white;
+}
+#main{
+    margin-top: 180px;
+    margin-left: 50px;
+    color: rgb(65, 22, 185);
+    font-size: 30px;
+}
+#main .btn1{
+    font-size: 20px;
+    background-color:rgb(65, 22, 185); 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+#main .btn1:hover{
+    
+    background-color:rgba(65, 22, 185, 0.521); 
+    color: rgb(184, 27, 27);
+    
+}
+#main .btn2{
+    font-size: 20px;
+    background-color:rgb(214, 228, 18); 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+#main .btn2:hover{
+    
+    background-color:rgb(22, 125, 185); 
+    color: rgb(255, 255, 255);
+}

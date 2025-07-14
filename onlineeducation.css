@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(onlineeducation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.join{
+    background-color:rgb(11, 125, 170); 
+    padding: 10px;
+    color: white;
+}
+#navbar nav ul{
+    display: flex;
+    justify-content:end;
+    background-color: white;
+    padding: 30px;
+    gap: 30px;
+    position:relative;
+  
+}
+.icon{
+    margin-right: 690px;
+    color: rgb(11, 125, 170);
+    font: size 25px;
+}
+#navbar ul{
+    list-style: none;
+    
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color:rgb(61, 58, 58)
+
+}
+#navbar ul li a:hover{
+    color: rgb(11, 125, 170);
+}
+.main{
+    margin-top: 200px;
+    margin-left: 60px;
+    font-size: 30px;
+    color: white;
+}
+.main1{
+    color: rgb(11, 125, 170);
+}
+
+.batan{
+    padding: 10px;
+}
+.click{
+    background-color:rgb(11, 125, 170);
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    width: 180px;
+    margin-left: 10px;
+    
+}
+.click a{
+    text-decoration: none;
+    color: white;
+    
+}
+.click2{
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    width: 180px;
+
+}
+.click2 a{
+    text-decoration: none;
+   color: black;
+    
+}
+.btn{
+    display: flex;
+   gap: 25px;
+}
