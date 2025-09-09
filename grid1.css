@@ -1,0 +1,54 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+/* Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    "header  header"
+    "sidebar main"
+    "footer  footer";
+  grid-template-rows: 60px 1fr 40px;
+  grid-template-columns: 200px 1fr;
+  height: 100vh;
+}
+
+/* Individual Grid Items */
+.header {
+  grid-area: header;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.main-content {
+  grid-area: main;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

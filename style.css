@@ -1,0 +1,1131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.scrol {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  position: absolute;
+  top: 70px;
+  z-index: 999999999999;
+}
+.scrol a {
+  text-decoration: none;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(236, 235, 235);
+  padding: 10px;
+  transform: translateX(-100%);
+  transition: all 0.2s ease-in-out;
+  z-index: 999;
+}
+
+#bar {
+  font-size: 25px;
+  display: none;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+}
+
+.upper_nav {
+  height: 70px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.main_nav {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+.main_nav img {
+  height: 30px;
+}
+.main_nav .nav_left {
+  text-align: center;
+  margin-left: 20px;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+.main_nav .anchor_tags {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.main_nav a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.main_nav .nav_right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+.main_nav .nav_right button {
+  height: 35px;
+  width: 100px;
+  border-radius: 50px;
+  font-size: 15px;
+  background-color: white;
+  font-weight: 600;
+}
+.main_nav .nav_right button:hover {
+  background-color: red;
+  border: none;
+  color: white;
+  transition: 0.2s;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+}
+#hero .hero_banner .hero_img img {
+  margin-top: 50px;
+  height: 80vh;
+  width: 100%;
+}
+#hero .hero_heading {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+#hero .hero_heading h1 {
+  font-size: 50px;
+  font-weight: 650;
+}
+#hero .hero_heading button {
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 35px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+#hero .hero_heading button:hover {
+  border: none;
+  background-color: red;
+  color: white;
+}
+
+#picks {
+  background-color: whitesmoke;
+}
+#picks .picks_heading h1 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+#picks .picks_list {
+  display: flex;
+  gap: 30px;
+}
+#picks .picks_list a {
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#picks .picks_cards {
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  border-radius: 20px;
+  gap: 20px;
+  text-align: center;
+}
+#picks .card1 {
+  border-radius: 40px;
+  height: 500px;
+  margin-top: 20px;
+  background-color: white;
+}
+#picks .card1 .card1_headings h5 {
+  font-size: 15px;
+  color: red;
+  font-weight: 700;
+  margin-top: 10px;
+}
+#picks .card1 .card1_price_p p {
+  font-size: 15px;
+  font-weight: 700;
+  color: grey;
+  margin-bottom: 20px;
+}
+#picks .card1 .card1_price_p2 p {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#picks .card1 .card1_btn {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+#picks .card1 .card1_btn1 button {
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 25px;
+}
+#picks .card1 .card1_btn2 button {
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 25px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+#picks .card2 {
+  border-radius: 40px;
+  height: 500px;
+  margin-top: 20px;
+  background-color: white;
+}
+#picks .card2 .card1_headings h5 {
+  font-size: 15px;
+  color: red;
+  font-weight: 700;
+  margin-top: 10px;
+}
+#picks .card2 .card1_price_p p {
+  font-size: 15px;
+  font-weight: 700;
+  color: grey;
+  margin-bottom: 20px;
+}
+#picks .card2 .card1_price_p2 p {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#picks .card2 .card1_btn {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+#picks .card2 .card1_btn1 button {
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 25px;
+}
+#picks .card2 .card1_btn2 button {
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 25px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+#picks .card3 {
+  border-radius: 40px;
+  height: 500px;
+  margin-top: 20px;
+  background-color: white;
+}
+#picks .card3 .card1_headings h5 {
+  font-size: 15px;
+  color: red;
+  font-weight: 700;
+  margin-top: 10px;
+}
+#picks .card3 .card1_price_p p {
+  font-size: 15px;
+  font-weight: 700;
+  color: grey;
+  margin-bottom: 20px;
+}
+#picks .card3 .card1_price_p2 p {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#picks .card3 .card1_btn {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+#picks .card3 .card1_btn1 button {
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 25px;
+}
+#picks .card3 .card1_btn2 button {
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 25px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+#picks .card4 {
+  border-radius: 40px;
+  height: 500px;
+  margin-top: 20px;
+  background-color: white;
+}
+#picks .card4 .card1_headings h5 {
+  font-size: 15px;
+  color: red;
+  font-weight: 700;
+  margin-top: 10px;
+}
+#picks .card4 .card1_price_p p {
+  font-size: 15px;
+  font-weight: 700;
+  color: grey;
+  margin-bottom: 20px;
+}
+#picks .card4 .card1_price_p2 p {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#picks .card4 .card1_btn {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+#picks .card4 .card1_btn1 button {
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 25px;
+}
+#picks .card4 .card1_btn2 button {
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 25px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+#mid_banners {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.mid_banners_main {
+  background-image: url(/img/mid-Banner-1.jpg);
+  height: 500px;
+  width: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 350px;
+  text-align: center;
+  margin-bottom: 80px;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.mid_banners_main .mid_banners_main1_btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.mid_banners_main .mid_banners_main1_para h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.mid_banners_main .mid_banners_main1_para p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.mid_banners_main .mid_banners_main1_btn button {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-top: 8px;
+  background-color: white;
+}
+
+.mid_banners_main1 {
+  background-image: url(/img/mid-Banner-2.jpg);
+  height: 500px;
+  width: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 350px;
+  text-align: center;
+  margin-bottom: 80px;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.mid_banners_main1 .mid_banners_main1_btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.mid_banners_main1 .mid_banners_main1_para h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.mid_banners_main1 .mid_banners_main1_para p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.mid_banners_main1 .mid_banners_main1_btn button {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-top: 8px;
+  background-color: white;
+}
+
+.mid_banners_main2 {
+  background-image: url(/img/mid-Banner-3.webp);
+  height: 500px;
+  width: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 350px;
+  text-align: center;
+  margin-bottom: 80px;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.mid_banners_main2 .mid_banners_main1_btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.mid_banners_main2 .mid_banners_main1_para h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.mid_banners_main2 .mid_banners_main1_para p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.mid_banners_main2 .mid_banners_main1_btn button {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-top: 8px;
+  background-color: white;
+}
+
+.pin {
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+.pin .pin1 {
+  background-color: rgba(155, 129, 82, 0.252);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 22px;
+}
+.pin .pin1 .pin2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.pin .pin1 .pin2 .pincode {
+  display: flex;
+}
+.pin .pin1 .pin2 .pincode .location {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.pin .pin1 .pin2 .pincode .p p {
+  font-size: 25px;
+}
+.pin .pin1 .pin2 .search {
+  display: flex;
+}
+.pin .pin1 .pin2 .search .input1 {
+  margin-right: 10px;
+}
+.pin .pin1 .pin2 .search .input1 input {
+  width: 630px;
+  height: 40px;
+  padding: 7px;
+  border-radius: 15px;
+  border: 1px black solid;
+}
+.pin .pin1 .pin2 .search .btn1 button {
+  height: 40px;
+  width: 100px;
+  border-radius: 30px;
+  border: 1px black solid;
+  background-color: transparent;
+}
+
+.select {
+  padding-left: 180px;
+  padding-right: 180px;
+  margin-bottom: 10px;
+}
+.select .select1 {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.select .select1 .photo {
+  margin-top: 15px;
+}
+.select .select1 .photo img {
+  margin-left: 90px;
+}
+.select .select1 .photo h3 {
+  margin-left: 55px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card .card2 {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.card .card2 .card1 {
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+}
+.card .card2 .card1 h2 {
+  color: rgb(255, 30, 30);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.card .card2 .card1 h1 {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.card .card2 .card1 #anshul img {
+  height: 400px;
+}
+.card .card2 .card1 .money .mrp1 {
+  font-size: 17px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.card .card2 .card1 .money .mrp2 h1 {
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.card .card2 .card1 .money h4 {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.card .card2 .btn3 button {
+  height: 40px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 35px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+.card .card2 .btn3 button:hover {
+  border: none;
+  background-color: red;
+  color: white;
+}
+
+.terms {
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.terms .terms1 {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.terms .terms2 button {
+  height: 60px;
+  width: 180px;
+  padding: 5px;
+  border-radius: 50px;
+  font-size: 30px;
+  background-color: red;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+.terms .terms2 button:hover {
+  background-color: white;
+  border: none;
+  color: black;
+  transition: 0.2s;
+}
+
+.line {
+  padding-left: 180px;
+  padding-right: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.line .line1 p {
+  font-size: 15px;
+}
+.line .line1 a {
+  color: black;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+.footer .quick {
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  padding: 30px;
+  text-transform: uppercase;
+  color: black;
+}
+.footer .quick h1 {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.footer .quick ul {
+  list-style: none;
+  padding-bottom: 10px;
+  font-weight: 100;
+}
+.footer .quick ul li {
+  margin-bottom: 10px;
+}
+.footer .quick ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .pin .pin1 {
+    background-color: rgba(155, 129, 82, 0.252);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 22px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .pin .pin1 .pin2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .pin .pin1 .pin2 .pincode {
+    display: flex;
+  }
+  .pin .pin1 .pin2 .pincode .location {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .pin .pin1 .pin2 .pincode .p p {
+    font-size: 25px;
+  }
+  .pin .pin1 .pin2 .search {
+    display: flex;
+  }
+  .pin .pin1 .pin2 .search .input1 {
+    margin-right: 10px;
+  }
+  .pin .pin1 .pin2 .search .input1 input {
+    width: 100%;
+    height: 40px;
+    padding: 7px;
+    border-radius: 15px;
+    border: 1px black solid;
+  }
+  .pin .pin1 .pin2 .search .btn1 button {
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border: 1px black solid;
+    background-color: transparent;
+  }
+  #picks .picks_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #mid_banners {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    left: 100px;
+  }
+  .terms {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .terms .terms1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .terms .terms2 button {
+    height: 60px;
+    width: 180px;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 30px;
+    background-color: red;
+    font-weight: 600;
+    color: white;
+    border: none;
+  }
+  .terms .terms2 button:hover {
+    background-color: white;
+    border: none;
+    color: black;
+    transition: 0.2s;
+  }
+  .line {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .line .line1 p {
+    font-size: 15px;
+  }
+  .line .line1 a {
+    color: black;
+  }
+  .select {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+  }
+  .select .select1 {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .select .select1 .photo {
+    margin-top: 15px;
+  }
+  .select .select1 .photo img {
+    margin-left: 90px;
+  }
+  .select .select1 .photo h3 {
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .card .card2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .card .card2 .card1 {
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+  }
+  .card .card2 .card1 h2 {
+    color: rgb(255, 30, 30);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .card .card2 .card1 h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .card .card2 .card1 #anshul img {
+    height: 400px;
+  }
+  .card .card2 .card1 .money .mrp1 {
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .card .card2 .card1 .money .mrp2 h1 {
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .card .card2 .card1 .money h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .card .card2 .btn3 button {
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-bottom: 15px;
+  }
+  .card .card2 .btn3 button:hover {
+    border: none;
+    background-color: red;
+    color: white;
+  }
+  #bar {
+    font-size: 25px;
+    display: block;
+  }
+  .main_nav .nav_right {
+    display: block;
+  }
+  .main_nav .nav_left {
+    display: none;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footer .quick {
+    justify-content: center;
+    align-items: center;
+    height: px;
+    padding: 30px;
+    text-transform: uppercase;
+    color: black;
+  }
+  .footer .quick h1 {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .footer .quick ul {
+    list-style: none;
+    padding-bottom: 10px;
+    font-weight: 100;
+  }
+  .footer .quick ul li {
+    margin-bottom: 10px;
+  }
+  .footer .quick ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .pin .pin1 {
+    background-color: rgba(155, 129, 82, 0.252);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 22px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .pin .pin1 .pin2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .pin .pin1 .pin2 .pincode {
+    display: flex;
+  }
+  .pin .pin1 .pin2 .pincode .location {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .pin .pin1 .pin2 .pincode .p p {
+    font-size: 25px;
+  }
+  .pin .pin1 .pin2 .search {
+    display: flex;
+  }
+  .pin .pin1 .pin2 .search .input1 {
+    margin-right: 10px;
+  }
+  .pin .pin1 .pin2 .search .input1 input {
+    width: 100%;
+    height: 40px;
+    padding: 7px;
+    border-radius: 15px;
+    border: 1px black solid;
+  }
+  .pin .pin1 .pin2 .search .btn1 button {
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border: 1px black solid;
+    background-color: transparent;
+  }
+  .terms {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .terms .terms1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .terms .terms2 button {
+    height: 60px;
+    width: 180px;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 30px;
+    background-color: red;
+    font-weight: 600;
+    color: white;
+    border: none;
+  }
+  .terms .terms2 button:hover {
+    background-color: white;
+    border: none;
+    color: black;
+    transition: 0.2s;
+  }
+  .line {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .line .line1 p {
+    font-size: 15px;
+  }
+  .line .line1 a {
+    color: black;
+  }
+  .select {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+  }
+  .select .select1 {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .select .select1 .photo {
+    margin-top: 15px;
+  }
+  .select .select1 .photo img {
+    margin-left: 90px;
+  }
+  .select .select1 .photo h3 {
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .card .card2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .card .card2 .card1 {
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+  }
+  .card .card2 .card1 h2 {
+    color: rgb(255, 30, 30);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .card .card2 .card1 h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .card .card2 .card1 #anshul img {
+    height: 400px;
+  }
+  .card .card2 .card1 .money .mrp1 {
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .card .card2 .card1 .money .mrp2 h1 {
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .card .card2 .card1 .money h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .card .card2 .btn3 button {
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-bottom: 15px;
+  }
+  .card .card2 .btn3 button:hover {
+    border: none;
+    background-color: red;
+    color: white;
+  }
+  .main_nav .nav_right {
+    display: none;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footer .quick {
+    justify-content: center;
+    align-items: center;
+    height: px;
+    padding: 30px;
+    text-transform: uppercase;
+    color: black;
+  }
+  .footer .quick h1 {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .footer .quick ul {
+    list-style: none;
+    padding-bottom: 10px;
+    font-weight: 100;
+  }
+  .footer .quick ul li {
+    margin-bottom: 10px;
+  }
+  .footer .quick ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,25 +1,90 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    background-image: url(cteative4\ -\ Copy.jpg);
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-    
+body {
+  background-color: #f8f8f8;
+  color: #333;
 }
-.form{
-    text-align: center;
-    margin-top: 130px;
-    border-color:black;
-    border: solid;
-    border-radius: 50px;
-    color:black;
-   height: auto;
-   background-size: cover;
-   size: 10px;
+
+/* Header */
+header {
+  background-color: #e4002b;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.btn{
-    padding: 15;
-    background-color: white;
-    color: black;
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+header input {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+}
+
+/* Movie List */
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.movie-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-card .details {
+  padding: 15px;
+}
+
+.details h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.details button {
+  background-color: #e4002b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details button:hover {
+  background-color: #b8001f;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
 }
