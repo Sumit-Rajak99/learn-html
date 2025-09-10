@@ -1,40 +1,28 @@
-
-Viewed
-Original file line number	Diff line number	Diff line change
-@@ -0,0 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Grid Example</title>
-  <style>
-    .grid-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr; /* 2 columns */
-      gap: 10px; /* space between boxes */
-      padding: 20px;
-    }
-
-    .grid-item {
-      background: lightblue;
-      padding: 20px;
-      text-align: center;
-      font-size: 18px;
-      border-radius: 8px;
-    }
-  </style>
+  <title>Image Change Example</title>
 </head>
 <body>
+  <h1 id="head">Heading</h1>
+  <img id="image" src="google.jpg" width="200" height="200">
 
-  <h2>Simple Grid Layout</h2>
+  <br><br>
+  <button onclick="fun()">Show Watch</button>
+  <button onclick="fun1()">Show Flower</button>
 
-  <div class="grid-container">
-    <div class="grid-item">Box 1</div>
-    <div class="grid-item">Box 2</div>
-    <div class="grid-item">Box 3</div>
-    <div class="grid-item">Box 4</div>
-  </div>
+  <script>
+    function fun() {
+      document.querySelector('#image').src = "flipcard";
+      document.querySelector('#head').textContent = "Watch";
+    }
 
+    function fun1() {
+      document.querySelector('#image').src = "";
+      document.querySelector('#head').textContent = "Flower";
+    }
+  </script>
 </body>
 </html>
